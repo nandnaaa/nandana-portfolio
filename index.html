@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nandana Geogy Thomas | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2721/2721268.png" type="image/png">
+  <style>
+    :root {
+      --primary: #4a148c;
+      --accent: #ba68c8;
+      --light: #f3e5f5;
+      --text: #2c2c2c;
+      --bg: #ffffff;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    body {
+      background: linear-gradient(to bottom right, var(--bg), var(--light));
+      color: var(--text);
+      line-height: 1.8;
+    }
+    header {
+      background: linear-gradient(to right, var(--primary), #7b1fa2);
+      color: white;
+      padding: 80px 20px 60px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    }
+    header h1 {
+      font-size: 3.8em;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.4em;
+      font-weight: 500;
+    }
+    nav {
+      background: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      padding: 10px 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 60px 25px;
+      max-width: 1100px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+    }
+    h2 {
+      font-size: 2em;
+      color: var(--primary);
+      margin-bottom: 30px;
+      border-left: 6px solid var(--accent);
+      padding-left: 15px;
+    }
+    .project, .certificate, .skill {
+      margin-bottom: 30px;
+      background: var(--light);
+      padding: 20px;
+      border-left: 4px solid var(--accent);
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .project:hover, .certificate:hover, .skill:hover {
+      transform: scale(1.02);
+    }
+    .project strong, .certificate strong, .skill strong {
+      font-size: 1.2em;
+      color: var(--primary);
+    }
+    .project em, .certificate em, .skill em {
+      display: block;
+      margin-top: 8px;
+      font-size: 0.95em;
+      color: #444;
+    }
+    .highlight {
+      background: var(--accent);
+      padding: 5px 10px;
+      border-radius: 6px;
+      display: inline-block;
+      font-weight: 600;
+      color: white;
+    }
+    #contact a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: linear-gradient(to right, var(--primary), #6a1b9a);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <h1>Nandana Geogy Thomas</h1>
+  <p>Prompt Engineer • AI Enthusiast • Full Stack Developer</p>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm a dedicated IMCA student with a deep passion for Prompt Engineering, Generative AI, and Web Development. I enjoy exploring creative tech solutions that are both practical and user-friendly. With a strong foundation in backend development, database design, and user interface aesthetics, I aim to build applications that are smart, efficient, and beautifully crafted.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skill">
+    <strong>Languages & Frameworks:</strong><br>
+    HTML, CSS, JavaScript, PHP, Python, React.js, Tailwind CSS, Node.js
+  </div>
+
+  <div class="skill">
+    <strong>Database & Backend:</strong><br>
+    MySQL, Django, XAMPP
+  </div>
+  <div class="skill">
+    <strong>Tools & Platforms:</strong><br>
+    GitHub, VS Code  </div>
+
+  <div class="skill">
+    <strong>Soft Skills:</strong><br>
+    Problem-Solving, Creativity, Collaboration, Adaptability, Communication
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <strong>🌐 Resort Management System</strong><br>
+    A full-featured system for managing guest check-ins, room services, food orders, and kitchen staff communication.
+    <em>Tech used: PHP, MySQL, HTML, CSS</em>
+  </div>
+
+  <div class="project">
+    <strong>📊 Resort Finance Management</strong><br>
+    Financial tracking dashboard for resort management with income-expense records, graph-based insights, and reporting.
+    <em>Tech used: PHP, MySQL, HTML, CSS</em>
+  </div>
+
+  <div class="project">
+    <strong>📋 Menu Management System</strong><br>
+    Admin interface for managing dishes, pricing, and live order updates sent directly to kitchen staff.
+    <em>Tech used: PHP, MySQL, HTML, CSS</em>
+  </div>
+
+  <div class="project">
+    <strong>🧠 AI-Powered Notes App</strong><br>
+    Note-taking web app with features like summarization, voice-to-text, auto-tagging, and AI-powered enhancements.
+    <em>Tech used: React, Tailwind CSS, Node.js, PostgreSQL, OpenAI API</em>
+  </div>
+</section>
+
+<section id="certificates">
+  <h2>Certificates</h2>
+
+  <div class="certificate">
+    <strong>📜 PHP & MySQL – Udemy</strong><br>
+    Certification in dynamic web development using PHP & MySQL (July 2025)
+  </div>
+
+  <div class="certificate">
+    <strong>💻 Full Stack Web Development</strong><br>
+    Completed hands-on training at Pathadipalam (Dec 2024)
+  </div>
+
+  <div class="certificate">
+    <strong>🤖 Generative AI – Smart Learn Workshop</strong><br>
+    Attended workshop organized by ASAP Kerala and 360DigiTMG (June 2025)
+  </div>
+
+  <div class="certificate">
+    <strong>👩‍💻 Tink-Her-Hack 3.0 – Participant</strong><br>
+    Participated in Kerala’s largest women’s hackathon by TinkerHub (2025)
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    📧 Email: <a href="mailto:nandanageogy.12c1@gmail.com">nandanageogy.12c1@gmail.com</a><br>
+    🔗 LinkedIn: <a href="https://www.linkedin.com/in/nandana-geogy-thomas-690903309/" target="_blank">linkedin.com/in/nandana-geogy-thomas</a><br>
+  </p>
+</section>
+
+<footer>
+  &copy; 2025 Nandana Geogy Thomas • Crafted with precision, powered by passion ✨
+</footer>
+
+</body>
+</html>
